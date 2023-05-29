@@ -376,6 +376,7 @@ height: 16px;
     border-radius: 4px;
     width: 168px;
     height: 88px;
+    padding: 16px 32px 16px 32px;
     display: flex;
 }
 .customers-list-link{

@@ -401,6 +401,7 @@ display: flex;
 
 .customers-list-link:focus .customers-link {
     color: #404bbf;
+    
 }
 /* ----------FOOTER----------- */
 .footer{

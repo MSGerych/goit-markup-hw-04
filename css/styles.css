@@ -385,13 +385,7 @@ display: flex;
    
     
 }
-.customers-list-link:hover{
-    border-color: #404bbf;
-    color: #404bbf;
-}
-
-
-.customers-list-link:focus {
+.customers-list-link:hover, .customers-list-link:focus{
     border-color: #404bbf;
     color: #404bbf;
 }

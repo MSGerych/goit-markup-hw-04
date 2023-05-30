@@ -375,12 +375,10 @@ fill: #f4f4fd;
     gap: 24px;
 }
 .customers-list-item{
-    /* box-sizing: border-box;
-    border: 1px solid #8E8F99;
-    border-radius: 4px; */
+   
     width: 168px;
     height: 88px;
-    /* padding: 16px 32px 16px 32px; */
+  
     display: flex;
 }
 .customers-list-link{

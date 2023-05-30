@@ -382,26 +382,21 @@ display: flex;
     align-items: center;
     justify-content: center;
     fill: currentColor;
-    color: #8e8f99;
+   
     
 }
 .customers-list-link:hover{
     border-color: #404bbf;
-    /* color: #404bbf; */
-}
-
-.customers-list-link:hover .customers-link{
     color: #404bbf;
 }
+
+
 .customers-list-link:focus {
     border-color: #404bbf;
-    /* color: #404bbf; */
+    color: #404bbf;
 }
 
-.customers-list-link:focus .customers-link {
-    color: #404bbf;
-    
-}
+
 /* ----------FOOTER----------- */
 .footer{
     background-color: #2e2f42;

@@ -40,6 +40,9 @@ img{
     padding-top: 24px;
     padding-bottom: 24px;
     border: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container{
@@ -340,10 +343,11 @@ background-image: url(../images/icon-antenna\ 1.svg);
         background-color: #4D5AE5;
         border-radius: 50%;
 }
-
+.our-icon-link:hover, .our-icon-link:focus{
+    background-color: #404bbf;
+}
 .our-link-item{
-width: 16px;
-height: 16px;
+fill: #f4f4fd;
 }
 
 /* ----------CUSTOMERS------------ */
@@ -359,7 +363,7 @@ height: 16px;
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
-        line-height: 40px;
+        line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
@@ -371,28 +375,40 @@ height: 16px;
     gap: 24px;
 }
 .customers-list-item{
-    box-sizing: border-box;
+    /* box-sizing: border-box;
     border: 1px solid #8E8F99;
-    border-radius: 4px;
+    border-radius: 4px; */
     width: 168px;
     height: 88px;
-    padding: 16px 32px 16px 32px;
+    /* padding: 16px 32px 16px 32px; */
     display: flex;
 }
 .customers-list-link{
 display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+   
 }
 .customers-link{
-    width: 104px;
-    height: 56px;
+   
     align-items: center;
     justify-content: center;
-    fill: #8E8F99;;
+    fill: currentColor;
+    fill: #8e8f99;
+    
+}
+.customers-list-link:hover{
+    border-color: #404bbf;
+    
 }
 
-
+.customers-list-link:hover .customers-link{
+    fill: #404bbf;
+}
 /* ----------FOOTER----------- */
 .footer{
     background-color: #2e2f42;
@@ -401,7 +417,11 @@ display: flex;
 }
 .footer-container{
     display: flex;
-    gap: 120px;
+    align-items: baseline;
+    
+}
+.footer-logo-paragraf{
+    margin-right: 120px;
 }
 .footer-logo{
     font-family: 'Raleway', sans-serif;
@@ -436,11 +456,11 @@ display: flex;
     width: 264px;
 }
 .footer-title{
-    font-family: 'Roboto';
-        font-style: normal;
+    /* font-family: 'Roboto';
+        font-style: normal; */
         font-weight: 500;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #FFFFFF;
         margin-bottom: 16px;
@@ -463,7 +483,12 @@ display: flex;
     background-color: #4D5AE5;
     border-radius: 50%;
 }
-
+.footer-link-item:hover, .footer-link-item:focus{
+    background-color: #31d0aa;
+}
+.footer-link-icon{
+    fill: #f4f4fd;
+}
 /*---------- css portfolio------------- */
 .navigation-buttons{
     padding-top: 96px;
@@ -507,8 +532,11 @@ display: flex;
     flex-basis: calc(100%-48px)/3;
     
 }
+.navigation-link{
+    display: block;
+}
 
-.navigation-list-item:hover{
+.navigation-link:hover, .navigation-link:focus{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);

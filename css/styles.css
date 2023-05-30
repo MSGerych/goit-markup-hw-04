@@ -374,7 +374,6 @@ display: flex;
     height: 100%;
     border: 1px solid #8e8f99;
     border-radius: 4px;
-    /* fill: #8e8f99; */
     color: #8e8f99;
    
 }
@@ -388,7 +387,7 @@ display: flex;
 }
 .customers-list-link:hover{
     border-color: #404bbf;
-    
+    color: #404bbf;
 }
 
 .customers-list-link:hover .customers-link{
@@ -396,7 +395,7 @@ display: flex;
 }
 .customers-list-link:focus {
     border-color: #404bbf;
-
+    color: #404bbf;
 }
 
 .customers-list-link:focus .customers-link {
